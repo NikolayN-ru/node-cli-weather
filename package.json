@@ -1,0 +1,22 @@
+{
+  "name": "90",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wether.js",
+  "bin": {
+    "wether": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.1"
+  }
+}
